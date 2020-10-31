@@ -1,5 +1,7 @@
+const cache = require('../cache');
+
 const getEncounters = () => {
-  console.log('get encounters');
+  console.log(cache.get('token'));
 };
 
 module.exports = getEncounters;
